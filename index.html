@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active third-para">Home</a>
+            <a href="#about" class="third-para">About</a>
+            <a href="#services" class="third-para">Services</a>
+            <a href="#portfolio" class="third-para">Portfolio</a>
+            <a href="#contact" class="third-para">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Ayush Jaiswal,</h1>
+            <h3> your friendly neighborhood <span class="typing-text">FullStack Developer</span></h3>
+            <p class="para">,armed with a laptop, coffee, and a never-ending hunger for code. From crafting pixel-perfect UIs to wrestling with the wild world of back-end servers, I’m on a mission to turn ideas into sleek, functional, and (hopefully) bug-free applications.</p>
+            <br>
+            <h3 class="para">⚡ Favorite Pastimes: </h3>
+            <br>
+            <br>
+            <p class="para">Debugging my code, refreshing GitHub like it’s a social media feed, and occasionally throwing my computer out of frustration (just kidding, mostly).</p>
+            <div class="social-media">
+                <a href="https://github.com/th-ayyush"><i class='bx bxl-github' ></i></a>
+                <a href="https://x.com/AyushSherlock"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/th_ayyush/"><i class='bx bxl-instagram' ></i></a>
+                <a href="www.linkedin.com/in/ayush-jaiswal9"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1E1gHTHdEUwm4aPpjqPxhLpGPZQiYrYA-/view?usp=sharing" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./Assets/profile-pic.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- <img src="your-image.jpg" alt=""> -->
+        </div>
+    
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer | AI & ML Enthusiast</h3>
+            <p class="third-para">
+                I'm Ayush Jaiswal, a passionate Full Stack Developer with expertise in modern web technologies like React.js, Node.js, and MongoDB. I specialize in building scalable, high-performance applications, ranging from real-time chat apps to full-fledged e-commerce platforms.
+            </p>
+            <p class="third-para">
+                With hands-on experience through internships at <b>Coding Raja Technologies</b> and <b>Internpe</b>, I have successfully built and deployed dynamic web solutions. Additionally, during my AI & ML internship at <b>Edunet Foundation</b>, I developed a <b>Heart Disease Prediction Model</b>, utilizing machine learning for impactful healthcare insights.
+            </p>
+            <p class="third-para">
+                I love problem-solving, exploring new technologies, and constantly improving my skills to develop efficient and scalable solutions. When I’m not coding, you’ll find me researching the latest tech trends or working on side projects that push my boundaries.  
+            </p>
+            
+
+            
+            <div id="more-content" style="display: none;">
+                <h3>Education</h3>
+                <p class="third-para">
+                    🎓 <b>Bachelor of Technology (B.Tech) in Computer Science</b>  
+                    <b>DPG Institute of Technology & Management, Gurugram</b> (2021 - 2025)  
+                    SGPA: 8.0/10  
+                </p>
+    
+                <h3>More About Me</h3>
+                <p class="third-para">
+                    My journey in tech started with an enthusiasm for coding, which eventually led me to explore full-stack development and artificial intelligence. Over the years, I have built various projects, refining my expertise in both front-end and back-end development.
+                </p>
+                <p class="third-para">
+                    I am proficient in <b>JavaScript, Python, SQL, C, HTML, CSS</b>, and frameworks like <b>React.js, Node.js, Express.js</b>. Additionally, I have a strong command over databases, including <b>MongoDB and MySQL</b>, ensuring optimized performance for data-driven applications.
+                </p>
+                <p class="third-para">
+                    Beyond coding, I enjoy mentoring aspiring developers, contributing to open-source projects, and staying up to date with the latest advancements in AI and web development. My goal is to continuously evolve as a developer and work on projects that make a real-world impact.
+                </p>
+            </div>
+    
+            <a href="#" class="btn" id="read-more-btn" onclick="toggleReadMore(event)">Read more</a>
+
+        </div>
+    </section>
+    
+
+    <!-- services section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML</h3>
+                <p class="third-para">I have a strong command of HTML, ensuring well-structured and semantic web pages for optimal performance and accessibility.</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS</h3>
+                <p class="third-para">I design responsive and visually appealing websites using CSS, incorporating modern frameworks like Tailwind and Bootstrap.</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+                <p class="third-para">With JavaScript, I create dynamic and interactive user interfaces, leveraging frameworks like React.js for a seamless user experience.</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bxl-react'></i>
+                <h3>React.js</h3>
+                <p class="third-para">I develop scalable and high-performance front-end applications using React.js, ensuring a smooth and engaging UI.</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bxl-nodejs'></i>
+                <h3>Node.js</h3>
+                <p class="third-para">I build robust back-end services with Node.js, integrating RESTful APIs and handling server-side operations efficiently.</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bxl-mongodb'></i>
+                <h3>MongoDB</h3>
+                <p class="third-para">I work with MongoDB to design efficient NoSQL databases, ensuring optimal performance and scalability for applications.</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bxs-data'></i>
+                <h3>MySQL</h3>
+                <p class="third-para">I manage structured data efficiently using MySQL, implementing optimized queries and database designs.S why QL?</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Python</h3>
+                <p class="third-para">I use Python for scripting, data analysis, and backend development, utilizing libraries like Pandas and NumPy.</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bx-math'></i>
+                <h3>C Programming</h3>
+                <p class="third-para">I have a solid understanding of C programming, applying it for algorithmic problem-solving and low-level programming.</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bx-server'></i>
+                <h3>Express.js</h3>
+                <p class="third-para">I use Express.js to develop efficient and scalable web applications, integrating RESTful APIs and middleware.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart'></i>
+                <h3>Power BI</h3>
+                <p class="third-para">I create interactive dashboards and reports in Power BI, transforming data into actionable insights.</p>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bx-table'></i>
+                <h3>Excel</h3>
+                <p class="third-para">I leverage Excel for data analysis, using advanced formulas, pivot tables, and visualization techniques.</p>
+            </div>
+    
+    
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>WebDev Project</span></h2>
+        <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Assets/tour.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Tour & Travels</h4>
+                <a href="https://tour-planet-here.netlify.app/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="Assets/ai-generated-8785462.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>YouTube Clone</h4>
+                <a href="https://vido-tube.netlify.app/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="Assets/Education.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>College Website</h4>
+                <a href="https://edusityworld.netlify.app/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="Assets/Building.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Real Estate Pvt. Ltd</h4>
+                <a href="https://estate-world.netlify.app/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="Assets/shoes.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Sneakers</h4>
+                <a href="https://snicko.netlify.app/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+                <img src="Assets/Plant.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Plant Website</h4>
+                    <a href="https://gurugram-plants.netlify.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Data analyst project -->
+        <h2 class="heading">Latest <span>Data Analyst</span> Projects</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Assets/tour.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Customer Churn Analysis Using Python</h4>
+                    <a href="Assets/customer.jpg"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Assets/netflix.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Netflix Data Analysis Using SQL</h4>
+                    <a href="https://github.com/th-ayyush/Netflix-Data-Analysis.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+    
+            <div class="portfolio-box">
+                <img src="Assets/store.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>SuperStore Sales Dashboard Using Python</h4>
+                    <a href="https://github.com/th-ayyush/SuperStore-Sales-Dashboard.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="input-box">
+                <input type="hidden" name="access_key" value="87dba34e-7c5b-4bbd-ad05-5a114c57f032">
+                <input type="text" placeholder="Full Name" name="name" required/>
+                <input type="email" placeholder="Email Address" name="email" required/>
+            
+                <input type="number" placeholder="Mobile number"name="phone" required/>
+                <input type="text" placeholder="Email Subject" name="subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p class="third-para"> Made with 💻, ☕, and way too many late-night debugging sessions. </p>
+            <p class="third-para">© 2025 Ayush Jaiswal | No bugs were harmed in the making of this website. </p>
+        </div>
+       
+        
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleReadMore(event) {
+            event.preventDefault();
+            var moreContent = document.getElementById("more-content");
+            var btn = document.getElementById("read-more-btn");
+    
+            if (moreContent.style.display === "none") {
+                moreContent.style.display = "block";
+                btn.innerText = "Read less";
+            } else {
+                moreContent.style.display = "none";
+                btn.innerText = "Read more";
+            }
+        }
+
+        //Typing text
+    const typingText = document.querySelector(".typing-text");
+    const words = ["Full Stack Developer", "AI & ML Enthusiast", "Problem Solver", "Tech Explorer"];
+    let index = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function typeEffect() {
+        let currentWord = words[index];
+        let displayedText = currentWord.substring(0, charIndex);
+        typingText.innerHTML = displayedText;
+
+        if (!isDeleting && charIndex < currentWord.length) {
+            charIndex++;
+        } else if (isDeleting && charIndex > 0) {
+            charIndex--;
+        } else {
+            isDeleting = !isDeleting;
+            index = !isDeleting ? (index + 1) % words.length : index;
+        }
+
+        setTimeout(typeEffect, isDeleting ? 100 : 150);
+    }
+
+    document.addEventListener("DOMContentLoaded", typeEffect);
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
